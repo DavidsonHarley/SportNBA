@@ -1,0 +1,22 @@
+.formCreateTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+.containerGifCreate{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.imgGifCreate{
+    width: 350px;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,1);
+}

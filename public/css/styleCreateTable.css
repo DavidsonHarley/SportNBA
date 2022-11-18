@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+ }
+
+ .uiForm {
+    max-width: 350px;
+    padding: 80px 30px 30px;
+    margin: 10px 30px 30px;
+    background: rgba(17, 92, 153, 0.24);
+    border-radius: 40px;
+ }
+ .uiForm h3 {
+    position: relative;
+    z-index: 5;
+    margin: 0 0 60px;
+    text-align: center;
+    color:  #f1c40f;
+    font-size: 30px;
+    font-weight: normal;
+ }
+ .uiForm h3:before {
+   
+    position: absolute;
+    z-index: -1;
+    left: 60px;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fee8e4;
+ }
+ .uiForm h3:after {
+    
+    position: absolute;
+    z-index: -1;
+    right: 50px;
+    top: -40px;
+    width: 0;
+    height: 0;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-bottom: 90px solid #ffe3b5;
+ }
+ .form-row {
+    position: relative;
+    margin-bottom: 40px;
+ }
+ .form-row input {
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    line-height: 40px;
+    font-family: 'Permanent Marker', cursive;
+    background: none;
+    border-width: 0;
+    border-bottom: 2px solid #4a90e2;
+    transition: all 0.2s ease;
+ }
+ .form-row label {
+    position: absolute;
+    left: 13px;
+    color: #9d959d;
+    font-size: 20px;
+    font-weight: 300;
+    transform: translateY(-35px);
+    transition: all 0.2s ease;
+ }
+ .form-row input:focus {
+    outline: 0;
+    border-color: #F77A52;
+    font-family: 'Roboto', sans-serif;
+    color: #f1c40f ;
+ }
+ .form-row input:focus+label, .form-row input:valid+label {
+    transform: translateY(-60px);
+    margin-left: -14px;
+    font-size: 14px;
+    font-weight: 400;
+    outline: 0;
+    border-color: #F77A52;
+    color: #F77A52;
+ }
+ .uiForm input[type="submit"] {
+    width: 100%;
+    padding: 0;
+    line-height: 42px;
+    background: #4a90e2;
+    border-width: 0;
+    color: white;
+    font-size: 20px;
+ }
+ .uiFormp {
+    margin: 0;
+    padding-top: 10px;
+ }
+
+ .floating-buttonRed {
+    
+   text-decoration: none;
+   display: inline-block;
+   width: 70px;
+   height: 45px;
+   line-height: 45px;
+   border-radius: 45px;
+   font-family: 'Permanent Marker', cursive;
+   font-size: 11px;
+   text-transform: uppercase;
+   text-align: center;
+   letter-spacing: 3px;
+   font-weight: 600;
+   color: #524f4e;
+   background: white;
+   box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+   transition: .3s;
+ }
+ .floating-buttonRed:hover {
+   background: #2EE59D;
+   box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+   color: white;
+   transform: translateY(-7px);
+ }

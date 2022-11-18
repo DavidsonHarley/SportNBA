@@ -1,0 +1,16 @@
+.conatinerMoreNews{
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-top: 150px;
+
+}
+.lentaNewsMore{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    max-width: 1100px;
+    
+}
+
+    

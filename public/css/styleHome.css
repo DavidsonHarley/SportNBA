@@ -1,0 +1,282 @@
+.titleLogo{
+    font-size: 36px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+
+.containerImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.imgMain{
+    width: 1200px;
+    height: 700px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+.imgGifTable{
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+.imgGifTable1{
+    margin: 50px;
+    width: 300px;
+    height: 500px;
+    border-radius: 100px;
+ 
+}
+
+.gameNav{
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.containerNews{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: center;
+    
+}
+
+.StatNews{
+    margin: 50px;
+}
+
+.cardNews{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.Poisk{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.containerMainNews{
+    display: flex;
+    justify-content: center;
+}
+
+.newComand{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: center;
+}
+
+.containerNewPlayer{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: center;
+
+}
+
+.gifImg{
+    margin-top: 30px;
+ width: 200px;
+ margin-left: 100px;
+ margin-right: 50px;
+ text-align: center;
+ border-radius: 50px;
+}
+.containerNewTable{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 30px;
+}
+.containerTableHome{
+    display: flex;
+}
+.double-border-button {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid #f1c40f;
+    border-radius: 20px;
+    color: #f1c40f;
+    font-family: 'Permanent Marker', cursive;
+    transition: .4s;
+  }
+  .double-border-button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: .4s;
+  }
+  .double-border-button:hover:after {
+    border-color: #f1c40f;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+  }
+
+
+.table_dark {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 14px;
+    width: 465px;
+    text-align: left;
+    border-collapse: collapse;
+    background: #252F48;
+    margin: 10px;
+  }
+  .table_dark th {
+    color: #EDB749;
+    border-bottom: 1px solid #37B5A5;
+    padding: 12px 17px;
+  }
+  .table_dark td {
+    color: #CAD4D6;
+    border-bottom: 1px solid #37B5A5;
+    border-right:1px solid #37B5A5;
+    padding: 7px 17px;
+  }
+  .table_dark tr:last-child td {
+    border-bottom: none;
+  }
+  .table_dark td:last-child {
+    border-right: none;
+  }
+  .table_dark tr:hover td {
+    text-decoration: underline;
+  }
+
+  .PoiskTeam{
+    margin: 100px;
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .PoiskTeamNews{
+    margin: 110px;
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .inputStyle{
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+  }
+
+
+  .btn {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  .titleTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .temNews{
+    background: rgba(17, 92, 153, 0.24);
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    text-align: center;
+    border: 3px solid #edb64996;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 10px;
+    overflow-x:hidden
+  }
+
+  .teamNewsImg{
+    width: 18rem;
+    border-radius: 50px;
+  }
+  .h3Title{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 300px;
+    font-family: 'Permanent Marker', cursive;
+    overflow-x:hidden
+  }
+
+  /* buttonNews */
+
+  .sliding-button {
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+    border-image-slice: 1;
+    margin: 10px 20px;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: .8s cubic-bezier(.165, .84, .44, 1);
+  }
+  .sliding-button:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    z-index: -1;
+    color: white;
+    background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+    transition: .8s cubic-bezier(.165, .84, .44, 1);
+  }
+  .sliding-button:hover {
+    background: rgba(255, 255, 255, 0);
+  }
+  .sliding-button:hover:before {
+    bottom: 0%;
+    top: auto;
+    height: 100%;
+  }
+
+  /* button */

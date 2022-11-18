@@ -1,0 +1,43 @@
+/* body{
+    background: url(/img/IMG_20221116_213737_933.jpeg);
+} */
+body{
+    background: #1b2631;
+    color:#f7dc6f;
+    font-family: 'Permanent Marker', cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.containerLogo{
+    display: flex;
+    align-items: center;
+
+}
+.logoTitle{
+    margin-left: 10px;
+}
+
+.logoGif{
+    width: 85px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.imgNavGifYoutube{
+    width: 85px;
+    height: 50px;
+    border-radius: 200px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    align-items: center;
+}
+
+.containerUser{
+    display: flex;
+    align-items: center;
+}
+
+.UserReg{
+    margin-right: 20px;
+}
